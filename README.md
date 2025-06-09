@@ -44,6 +44,53 @@
 
 ---
 
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-repo/attack-the-virus.git
+cd attack-the-virus
+```
+
+### 2. Set Up the Frontend
+```bash
+cd frontend
+npm install
+```
+
+### 3. Set Up the Backend
+```bash
+cd ../backend
+mvn install
+```
+### 4. Run the Application
+Start the Frontend
+```bash
+cd frontend
+ng serve
+```
+
+Start the Backend
+```bash
+cd ../backend
+mvn spring-boot:run
+```
+
+## 💡 How to Use
+1. Open your browser and go to: http://localhost:4200
+
+2. Explore:
+
+- Take quizzes to test your biology and math knowledge
+
+- Play mini-games to reinforce learning in a fun way
+
+- Use the Clinic Finder to locate nearby healthcare services
+
+- Chat with Vacciwiz to get health-related information instantly
+
+
+
 
 
 
