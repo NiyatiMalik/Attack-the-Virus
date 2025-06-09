@@ -46,13 +46,17 @@
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+1. Clone the Repository
 ```bash
 git clone https://github.com/your-repo/attack-the-virus.git
 cd attack-the-virus
 
-### 2. Set Up the Frontend
+2. Set Up the Frontend
 ```bash
 cd frontend
 npm install
+
+
+
+
 
