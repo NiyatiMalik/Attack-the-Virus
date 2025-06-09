@@ -76,6 +76,8 @@ cd ../backend
 mvn spring-boot:run
 ```
 
+---
+
 ## 💡 How to Use
 1. Open your browser and go to: http://localhost:4200
 
