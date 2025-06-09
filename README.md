@@ -1,63 +1,58 @@
-# Attack-the-Virus
-## Overview
-"Attack the Virus" is an educational web application designed to enhance public understanding of the immune system, the role of antibodies, and the effectiveness of vaccines, while also teaching basic math skills. Targeted towards students, educators, and curious individuals, the app uses gamified learning to make complex concepts accessible and engaging.
+# 🦠 Attack-the-Virus
+
+**Attack the Virus** is an educational web application that blends gamification with interactive learning to help users—especially students—better understand the immune system, the role of antibodies, vaccines, and basic math skills. It offers a fun, engaging experience with mini-games, quizzes, and real-world tools like a clinic locator and an AI chatbot.
 
 ---
 
-## Features
-- **Interactive Quiz:** Test your knowledge on the immune system, diseases, and vaccines with timed questions and educational "Info Cards."
-- **Mini-Games:**
-  - *Virus Breaker*: A virus-themed version of Brick Breaker.
-  - *Virus Sweeper*: A reimagining of Minesweeper with a viral twist.
-  - *Virus Panic*: Solve math problems to clear virus cells.
-- **Clinic Finder:** Locate nearby clinics and healthcare facilities using the Google Maps API.
-- **AI Chatbot:** Engage with "Vacciwiz" to get answers about health, vaccines, and diseases.
+## 🌟 Key Features
+
+### 🎓 Interactive Quiz
+- Timed questions focused on the immune system, diseases, and vaccines
+- Educational "Info Cards" that provide instant feedback and learning
+
+### 🎮 Mini-Games
+- **Virus Breaker**: A viral twist on the classic Brick Breaker
+- **Virus Sweeper**: Inspired by Minesweeper, find viruses instead of mines
+- **Virus Panic**: Solve math problems under pressure to eliminate virus cells
+
+### 🏥 Clinic Finder
+- Search and locate nearby healthcare centers and clinics
+- Uses the **Google Maps API** for real-time location and data
+
+### 🤖 AI Chatbot – *Vacciwiz*
+- Ask questions about health, diseases, and vaccines
+- Built to provide friendly, factual, and accessible answers
 
 ---
 
-## Technologies
-- **Frontend:** Angular, GSAP for animations
-- **Backend:** Spring Boot, MySQL
-- **APIs:** Google Maps API for clinic finder
-- **Testing:** JUnit, Mockito for backend; manual and automated tests for frontend
+## 🛠 Tech Stack
+
+### 🔹 Frontend
+- **Angular** – Core framework
+- **GSAP** – Smooth and dynamic animations
+
+### 🔹 Backend
+- **Spring Boot** – REST APIs and backend logic
+- **MySQL** – Persistent data storage
+
+### 🔹 APIs & Services
+- **Google Maps API** – For the clinic finder feature
+
+### 🔹 Testing
+- **JUnit**, **Mockito** – Backend unit testing
+- **Manual & Automated Testing** – Frontend QA
 
 ---
 
-## Installation
+## 🚀 Getting Started
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/attack-the-virus.git
-   cd attack-the-virus
-   ```
+### 1. Clone the Repository
+```bash
+git clone https://github.com/your-repo/attack-the-virus.git
+cd attack-the-virus
 
-2. Install dependencies for the frontend:
-   ```bash
-   cd frontend
-   npm install
-   ```
+### 2. Set Up the Frontend
+```bash
+cd frontend
+npm install
 
-3. Install dependencies for the backend:
-   ```bash
-   cd backend
-   mvn install
-   ```
-
-4. Start the frontend:
-   ```bash
-   cd frontend
-   ng serve
-   ```
-
-5. Start the backend:
-   ```bash
-   cd backend
-   mvn spring-boot:run
-   ```
-
----
-
-## Usage
-1. Navigate to `http://localhost:4200` in your browser.
-2. Explore features like the quiz, mini-games, and the clinic finder.
-3. Engage with "Vacciwiz" for real-time information.
